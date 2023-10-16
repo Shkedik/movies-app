@@ -3,7 +3,7 @@
   "content": {
     "name": "Киновтопку",
     "title": "ТОП-10 самых низкорейтинговых фильмов",
-    "logo": "public/icons/logo.png"
+    "logo": "/icons/logo.png"
   },
   "movies": [
     {
@@ -24,7 +24,7 @@
       ],
       "directors": ["Лора Террузо"],
       "country": ["USA"],
-      "poster": "public/posters/father.webp"
+      "poster": "/posters/father.webp"
     },
     {
       "id": 2,
@@ -42,7 +42,7 @@
       ],
       "directors": ["Эухенио Дербес"],
       "country": ["Mexico"],
-      "poster": "public/posters/without-instructions.jpg"
+      "poster": "/posters/without-instructions.jpg"
     },
     {
       "id": 3,
@@ -65,7 +65,7 @@
         "Дженнифер Лиао"
       ],
       "country": ["USA"],
-      "poster": "public/posters/from.jpg"
+      "poster": "/posters/from.jpg"
     }
   ]
 }
