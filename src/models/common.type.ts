@@ -15,3 +15,15 @@ export type ContentType = {
   title: string,
   logo: string
 }
+
+export type MoviesType = {
+  id: number,
+  year: number,
+  type: GenreType,
+  title: string,
+  description: string,
+  actors: string[],
+  directors: string[],
+  country: string[],
+  poster: string,
+}

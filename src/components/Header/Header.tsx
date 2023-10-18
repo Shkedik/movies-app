@@ -8,9 +8,9 @@ interface HeaderProps {
 
 const Header: FC<HeaderProps> = ({content}) => {
   return (
-    <div className="flex mx-80 h-24 justify-between items-center h-auto">
+    <div className="flex h-24 justify-between items-center h-auto">
       <Image
-        src={`${content.logo}`}
+        src={content.logo}
         width={30}
         height={30}
         alt={'logo'}

@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   display: flex;
   flex-direction: column;
+  margin: 0 80px;
 }
 
 @font-face {
