@@ -14,6 +14,11 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      sans: ['GolosTextWebRegular', 'GolosTextWebDemiBold', 'GolosTextWebBold', 'GolosTextWebBlack', 'GolosTextWebMedium' , 'sans-serif'],
+      serif: ['serif'],
+      mono: ['monospace'],
+    },
   },
   plugins: [],
 }

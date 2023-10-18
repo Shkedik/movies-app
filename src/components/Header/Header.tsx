@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header: FC<HeaderProps> = ({content}) => {
   return (
-    <div className='flex mx-80 justify-between items-center h-auto'>
+    <div className="flex mx-80 h-24 justify-between items-center h-auto">
       <Image
         src={`${content.logo}`}
         width={30}
@@ -16,8 +16,12 @@ const Header: FC<HeaderProps> = ({content}) => {
         alt={'logo'}
       />
 
-      <h2>{content.name}</h2>
-      <h6>{content.title}</h6>
+      <h2 className="text-4xl"
+        style={{ fontFamily: 'GolosTextWebBold' }}
+        >{content.name}</h2>
+      <h6  className="text-base"
+        style={{ fontFamily: 'GolosTextWebDemiBold' }}
+        >{content.title}</h6>
     </div>
   );
 };
