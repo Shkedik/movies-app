@@ -25,7 +25,16 @@
       "directors": ["Лора Террузо"],
       "country": ["USA"],
       "poster": "/posters/father.webp",
-      "slug": "father"
+      "slug": "father",
+      "stills": [
+        "/stills/7.jpeg",
+        "/stills/8.jpeg",
+        "/stills/9.jpeg",
+        "/stills/10.jpeg",
+        "/stills/11.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 2,
@@ -44,7 +53,17 @@
       "directors": ["Эухенио Дербес"],
       "country": ["Mexico"],
       "poster": "/posters/without-instructions.jpg",
-      "slug": "ithout-instructions"
+      "slug": "ithout-instructions",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/5.jpeg",
+        "/stills/6.jpeg",
+        "/stills/10.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 3,
@@ -68,7 +87,19 @@
       ],
       "country": ["USA"],
       "poster": "/posters/from.webp",
-      "slug": "from-1"
+      "slug": "from-1",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/4.jpeg",
+        "/stills/5.jpeg",
+        "/stills/6.jpeg",
+        "/stills/7.jpeg",
+        "/stills/11.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 4,
@@ -92,7 +123,22 @@
       ],
       "country": ["USA"],
       "poster": "/posters/from.webp",
-      "slug": "from-2"
+      "slug": "from-2",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/4.jpeg",
+        "/stills/5.jpeg",
+        "/stills/6.jpeg",
+        "/stills/7.jpeg",
+        "/stills/8.jpeg",
+        "/stills/9.jpeg",
+        "/stills/10.jpeg",
+        "/stills/11.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 5,
@@ -116,7 +162,19 @@
       ],
       "country": ["USA"],
       "poster": "/posters/from.webp",
-      "slug": "from"
+      "slug": "from",
+      "stills": [
+        "/stills/4.jpeg",
+        "/stills/5.jpeg",
+        "/stills/12.jpeg",
+        "/stills/6.jpeg",
+        "/stills/7.jpeg",
+        "/stills/10.jpeg",
+        "/stills/8.jpeg",
+        "/stills/9.jpeg",
+        "/stills/11.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 6,
@@ -137,7 +195,22 @@
       "directors": ["Лора Террузо"],
       "country": ["USA"],
       "poster": "/posters/father.webp",
-      "slug": "father-3"
+      "slug": "father-3",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/10.jpeg",
+        "/stills/11.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg",
+        "/stills/4.jpeg",
+        "/stills/5.jpeg",
+        "/stills/6.jpeg",
+        "/stills/7.jpeg",
+        "/stills/8.jpeg",
+        "/stills/9.jpeg"
+      ]
     },
     {
       "id": 7,
@@ -156,7 +229,17 @@
       "directors": ["Эухенио Дербес"],
       "country": ["Mexico"],
       "poster": "/posters/without-instructions.jpg",
-      "slug": "ithout-instructions-1"
+      "slug": "ithout-instructions-1",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/4.jpeg",
+        "/stills/5.jpeg",
+        "/stills/11.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 8,
@@ -177,7 +260,22 @@
       "directors": ["Лора Террузо"],
       "country": ["USA"],
       "poster": "/posters/father.webp",
-      "slug": "father-2"
+      "slug": "father-2",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/4.jpeg",
+        "/stills/10.jpeg",
+        "/stills/11.jpeg",
+        "/stills/5.jpeg",
+        "/stills/8.jpeg",
+        "/stills/9.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg",
+        "/stills/6.jpeg",
+        "/stills/7.jpeg"
+      ]
     },
     {
       "id": 9,
@@ -196,7 +294,16 @@
       "directors": ["Эухенио Дербес"],
       "country": ["Mexico"],
       "poster": "/posters/without-instructions.jpg",
-      "slug": "ithout-instructions-2"
+      "slug": "ithout-instructions-2",
+      "stills": [
+        "/stills/2.jpg",
+        "/stills/3.jpg",
+        "/stills/4.jpeg",
+        "/stills/5.jpeg",
+        "/stills/6.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg"
+      ]
     },
     {
       "id": 10,
@@ -215,7 +322,19 @@
       "directors": ["Эухенио Дербес"],
       "country": ["Mexico"],
       "poster": "/posters/without-instructions.jpg",
-      "slug": "ithout-instructions-3"
+      "slug": "ithout-instructions-3",
+      "stills": [
+        "/stills/1.jpeg",
+        "/stills/2.jpg",
+        "/stills/6.jpeg",
+        "/stills/10.jpeg",
+        "/stills/11.jpeg",
+        "/stills/12.jpeg",
+        "/stills/13.jpeg",
+        "/stills/7.jpeg",
+        "/stills/8.jpeg",
+        "/stills/9.jpeg"
+      ]
     }
   ]
 }

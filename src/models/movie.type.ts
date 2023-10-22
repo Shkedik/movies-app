@@ -11,4 +11,5 @@ export type MovieType = {
   country: string[],
   slug: string,
   poster: string,
+  stills: string[],
 }
