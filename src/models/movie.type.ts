@@ -9,4 +9,6 @@ export type MovieType = {
   actors: string[],
   directors: string[],
   country: string[],
+  slug: string,
+  poster: string,
 }
