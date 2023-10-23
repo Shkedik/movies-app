@@ -12,7 +12,7 @@ interface MovieCardProps {
 
 const MovieCard: FC<MovieCardProps> = ({movie}) => {
   return  (
-    <div className="flex my-5">
+    <div className="flex flex-col items-center md:flex-row md:items-start my-5">
       <Link className="mr-5" href={`${ROUT_MOVIE}/${movie.slug}`}>
         <Image
           src={movie.poster}
@@ -21,9 +21,9 @@ const MovieCard: FC<MovieCardProps> = ({movie}) => {
           alt={movie.title}
         />
       </Link>
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-2 md:mt-0 pb-4 border-b border-gray-400 md:border-none">
         <div className="flex">
-          <h5>{movie.title},</h5>
+          <h5 style={{ fontFamily: 'GolosTextWebDemiBold' }}>{movie.title},</h5>
           <p>{movie.year}</p>
         </div>
         <p>{movie.description}</p>

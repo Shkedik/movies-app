@@ -11,7 +11,7 @@ interface MovieCardProps {
 const MovieCard: FC<MovieCardProps> = ({movie}) => {
   return  (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center md:flex-row md:items-start  my-5">
+      <div className="flex flex-col items-center md:flex-row md:items-start my-5">
         <div className="mx-5">
           <Image
             src={movie?.poster}
