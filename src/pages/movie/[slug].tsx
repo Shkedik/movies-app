@@ -1,4 +1,5 @@
 import { getContentData } from '@/api';
+import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import { ROUT_CONTENT, ROUT_MOVIES } from '@/constants/routers';
 import { ContentType } from '@/models/common.type';
@@ -21,6 +22,8 @@ const Index: NextPage<Props> = ({
 			<Header content={content}/>
 
 			<MovieCard movie={movie}/>
+
+			<Footer />
 		</>
 	);
 };

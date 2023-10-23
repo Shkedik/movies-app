@@ -27,13 +27,13 @@
       "poster": "/posters/father.webp",
       "slug": "father",
       "stills": [
-        "/stills/7.jpeg",
-        "/stills/8.jpeg",
-        "/stills/9.jpeg",
-        "/stills/10.jpeg",
-        "/stills/11.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg"
+        "/stills/7.png",
+        "/stills/8.jpg",
+        "/stills/9.webp",
+        "/stills/10.png",
+        "/stills/11.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -55,14 +55,14 @@
       "poster": "/posters/without-instructions.jpg",
       "slug": "ithout-instructions",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
         "/stills/3.jpg",
-        "/stills/5.jpeg",
-        "/stills/6.jpeg",
-        "/stills/10.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg"
+        "/stills/5.jpg",
+        "/stills/6.jpg",
+        "/stills/10.png",
+        "/stills/12.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -89,16 +89,16 @@
       "poster": "/posters/from.webp",
       "slug": "from-1",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
         "/stills/3.jpg",
         "/stills/4.jpeg",
-        "/stills/5.jpeg",
-        "/stills/6.jpeg",
-        "/stills/7.jpeg",
-        "/stills/11.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg"
+        "/stills/5.jpg",
+        "/stills/6.jpg",
+        "/stills/7.png",
+        "/stills/11.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -125,19 +125,19 @@
       "poster": "/posters/from.webp",
       "slug": "from-2",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
         "/stills/3.jpg",
         "/stills/4.jpeg",
-        "/stills/5.jpeg",
-        "/stills/6.jpeg",
-        "/stills/7.jpeg",
-        "/stills/8.jpeg",
-        "/stills/9.jpeg",
-        "/stills/10.jpeg",
-        "/stills/11.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg"
+        "/stills/5.jpg",
+        "/stills/6.jpg",
+        "/stills/7.png",
+        "/stills/8.jpg",
+        "/stills/9.webp",
+        "/stills/10.png",
+        "/stills/11.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -165,15 +165,15 @@
       "slug": "from",
       "stills": [
         "/stills/4.jpeg",
-        "/stills/5.jpeg",
-        "/stills/12.jpeg",
-        "/stills/6.jpeg",
-        "/stills/7.jpeg",
-        "/stills/10.jpeg",
-        "/stills/8.jpeg",
-        "/stills/9.jpeg",
-        "/stills/11.jpeg",
-        "/stills/13.jpeg"
+        "/stills/5.jpg",
+        "/stills/12.jpg",
+        "/stills/6.jpg",
+        "/stills/7.png",
+        "/stills/10.png",
+        "/stills/8.jpg",
+        "/stills/9.webp",
+        "/stills/11.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -197,19 +197,19 @@
       "poster": "/posters/father.webp",
       "slug": "father-3",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
         "/stills/3.jpg",
-        "/stills/10.jpeg",
-        "/stills/11.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg",
+        "/stills/10.png",
+        "/stills/11.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp",
         "/stills/4.jpeg",
-        "/stills/5.jpeg",
-        "/stills/6.jpeg",
-        "/stills/7.jpeg",
-        "/stills/8.jpeg",
-        "/stills/9.jpeg"
+        "/stills/5.jpg",
+        "/stills/6.jpg",
+        "/stills/7.png",
+        "/stills/8.jpg",
+        "/stills/9.webp"
       ]
     },
     {
@@ -231,14 +231,14 @@
       "poster": "/posters/without-instructions.jpg",
       "slug": "ithout-instructions-1",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
         "/stills/3.jpg",
         "/stills/4.jpeg",
-        "/stills/5.jpeg",
-        "/stills/11.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg"
+        "/stills/5.jpg",
+        "/stills/11.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -262,19 +262,19 @@
       "poster": "/posters/father.webp",
       "slug": "father-2",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
         "/stills/3.jpg",
         "/stills/4.jpeg",
-        "/stills/10.jpeg",
-        "/stills/11.jpeg",
-        "/stills/5.jpeg",
-        "/stills/8.jpeg",
-        "/stills/9.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg",
-        "/stills/6.jpeg",
-        "/stills/7.jpeg"
+        "/stills/10.png",
+        "/stills/11.jpg",
+        "/stills/5.jpg",
+        "/stills/8.jpg",
+        "/stills/9.webp",
+        "/stills/12.jpg",
+        "/stills/13.webp",
+        "/stills/6.jpg",
+        "/stills/7.png"
       ]
     },
     {
@@ -299,10 +299,10 @@
         "/stills/2.jpg",
         "/stills/3.jpg",
         "/stills/4.jpeg",
-        "/stills/5.jpeg",
-        "/stills/6.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg"
+        "/stills/5.jpg",
+        "/stills/6.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp"
       ]
     },
     {
@@ -324,16 +324,16 @@
       "poster": "/posters/without-instructions.jpg",
       "slug": "ithout-instructions-3",
       "stills": [
-        "/stills/1.jpeg",
+        "/stills/1.jpg",
         "/stills/2.jpg",
-        "/stills/6.jpeg",
-        "/stills/10.jpeg",
-        "/stills/11.jpeg",
-        "/stills/12.jpeg",
-        "/stills/13.jpeg",
-        "/stills/7.jpeg",
-        "/stills/8.jpeg",
-        "/stills/9.jpeg"
+        "/stills/6.jpg",
+        "/stills/10.png",
+        "/stills/11.jpg",
+        "/stills/12.jpg",
+        "/stills/13.webp",
+        "/stills/7.png",
+        "/stills/8.jpg",
+        "/stills/9.webp"
       ]
     }
   ]

@@ -1,13 +1,15 @@
 import { getContentData } from '@/api';
+import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import { ROUT_CONTENT, ROUT_MOVIES } from '@/constants/routers';
-import { ContentType, MoviesType } from '@/models/common.type';
+import { ContentType } from '@/models/common.type';
+import { MovieType } from '@/models/movie.type';
 import ListMovies from '@/views/ListMovies/ListMovies';
 import type { GetStaticProps, NextPage } from 'next';
 
 interface Props {
 	content: ContentType,
-	movies: MoviesType[],
+	movies: MovieType[],
 }
 
 const Index: NextPage<Props> = ({
@@ -19,6 +21,8 @@ const Index: NextPage<Props> = ({
 			<Header content={content}/>
 
 			<ListMovies movies={movies}/>
+
+			<Footer />
 		</>
 	);
 };
