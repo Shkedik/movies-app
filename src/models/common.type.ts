@@ -1,17 +1,16 @@
 export enum GenreType {
-  COMEDY = 'comedy',
-  HORROR = 'horror',
-  DRAMA = 'drama',
-  THRILLER = 'thriller',
-  MUSICAL = 'musical',
-  BIOGRAPHY = 'biography',
-
   MOVIE = 'movie',
   SERIES = 'series',
+  NONE = 'Select type',
 }
 
 export type ContentType = {
   name: string,
   title: string,
   logo: string
+}
+
+export enum FilteredEnum {
+  TEXT = 'text',
+  NUMBER = 'number'
 }
