@@ -19,11 +19,12 @@ const Carousel: FC<Props> = ({ images }) => {
   };
 
   return (
-    <div className="max-w-screen-lg w-[48rem]">
-      <div className="overflow-hidden relative h-[32rem]">
+    <div className="w-96 sm:w-[38rem] md:w-[44rem] lg:w-[48rem] h-full">
+      <div className="overflow-hidden relative h-64 sm:h-[24rem] md:h-[28rem] lg:h-[36rem]">
         {images?.map((image, idx) => {
           return (
             <Image
+              key={`${image}-${idx}`}
               src={image}
               layout="fill"
               alt={`still-${idx}`}
@@ -49,7 +50,7 @@ const Carousel: FC<Props> = ({ images }) => {
           </button>
         </div>
       </div>
-      <div className="flex justify-center  mt-6">
+      <div className="flex justify-center mt-6">
         {images.map((_, index) => (
           <div
             key={index}

@@ -1,15 +1,19 @@
 import React, { FC } from 'react';
-import { MoviesType } from '@/models/common.type';
 import MovieCard from './components/MovieCard/MovieCard';
+import { MovieType } from '@/models/movie.type';
 
 interface ListMoviesProps {
-	movies: MoviesType[],
+	movies: MovieType[],
 }
 
 const ListMovies: FC<ListMoviesProps> = ({movies}) => {
   return (
     <div className="my-5 h-full">
-      {movies.map((movie) => <MovieCard movie={movie}/>)}
+      {movies.map((movie) => <MovieCard
+          movie={movie}
+          key={`${movie.title}-${movie.year}`}
+        />
+      )}
     </div>
   );
 };

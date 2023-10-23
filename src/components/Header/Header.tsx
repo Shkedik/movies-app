@@ -11,7 +11,7 @@ interface HeaderProps {
 const Header: FC<HeaderProps> = ({content}) => {
   return (
     <div className="flex h-24 justify-between items-center h-auto bg-sky-500/100">
-      <Link  className="flex" href={Links.HOME}>
+      <Link  className="flex ml-2" href={Links.HOME}>
         <div className="mr-5">
           <Image
             src={content.logo}
@@ -27,7 +27,7 @@ const Header: FC<HeaderProps> = ({content}) => {
         </h2>
       </Link>
 
-      <h6  className="text-base"
+      <h6 className="hidden md:block text-base mr-2"
         style={{ fontFamily: 'GolosTextWebDemiBold' }}
         >{content.title}
       </h6>

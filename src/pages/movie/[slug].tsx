@@ -1,4 +1,5 @@
 import { getContentData } from '@/api';
+import { CustomBreadcrumbs } from '@/components/Breadcrumbs/Breadcrumbs';
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import { ROUT_CONTENT, ROUT_MOVIES } from '@/constants/routers';
@@ -20,6 +21,8 @@ const Index: NextPage<Props> = ({
 	return (
 		<>
 			<Header content={content}/>
+
+			<CustomBreadcrumbs />
 
 			<MovieCard movie={movie}/>
 

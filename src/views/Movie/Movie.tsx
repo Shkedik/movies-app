@@ -10,8 +10,8 @@ interface MovieCardProps {
 
 const MovieCard: FC<MovieCardProps> = ({movie}) => {
   return  (
-    <>
-      <div className="flex my-5">
+    <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center md:flex-row md:items-start  my-5">
         <div className="mx-5">
           <Image
             src={movie?.poster}
@@ -27,16 +27,16 @@ const MovieCard: FC<MovieCardProps> = ({movie}) => {
             <p >{movie?.year}</p>
           </div>
           <p className="mt-2">{movie?.description}</p>
-          <div className="flex mt-2">Создатели: &nbsp;
-            <p>{movie?.directors?.map((director, idx) => !(idx === director.length - 1) ? `${director}, ` : `${director}`)}</p>
-          </div>
-          <div className="flex mt-2">Актёры: &nbsp;
-            <p>{movie?.actors?.map((actor, idx) => !(idx === actor.length - 1) ? `${actor}, ` : `${actor}`)}</p>
-          </div>
+          <p className="flex mt-2">Создатели: &nbsp;
+            {movie?.directors?.map((director, idx) => !(idx === director.length - 1) ? `${director}, ` : `${director}`)}
+          </p>
+          <p className="flex mt-2">Актёры: &nbsp;
+            {movie?.actors?.map((actor, idx) => !(idx === actor.length - 1) ? `${actor}, ` : `${actor}`)}
+          </p>
         </div>
       </div>
       <Carousel images={movie.stills} />
-    </>
+    </div>
   )
 };
 
