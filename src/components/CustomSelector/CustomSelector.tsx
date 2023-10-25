@@ -9,9 +9,15 @@ type Props = {
 const CustomSelector: FC<Props> = ({filterGenre, setFilteredData}) => {
   return (
     <select
-      value={filterGenre}
+      className={"border-black border-2 w-400 p-2.5 ml-4"}
       onChange={(e) => setFilteredData(e.target.value as GenreType)}
-    ></select>
+    >
+      {filterGenre.map((genre, index) => (
+        <option key={index} value={genre}>
+          {genre}
+        </option>
+      ))}
+    </select>
   );
 }
 

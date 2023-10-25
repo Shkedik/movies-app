@@ -1,7 +1,7 @@
 export enum GenreType {
+  NONE = 'Select type',
   MOVIE = 'movie',
   SERIES = 'series',
-  NONE = 'Select type',
 }
 
 export type ContentType = {

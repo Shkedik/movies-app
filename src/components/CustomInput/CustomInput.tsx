@@ -11,6 +11,7 @@ type Props = {
 const CustomInput: FC<Props>  = ({title, type, filteredData, setFilteredData }) => {
   return (
     <input
+      className={"border-black border-2 w-400 p-2"}
       type={type}
       placeholder={title}
       value={filteredData}

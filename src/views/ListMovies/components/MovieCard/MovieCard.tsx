@@ -23,8 +23,9 @@ const MovieCard: FC<MovieCardProps> = ({movie}) => {
       </Link>
       <div className="flex flex-col mt-2 md:mt-0 pb-4 border-b border-gray-400 md:border-none">
         <div className="flex">
-          <h5 style={{ fontFamily: 'GolosTextWebDemiBold' }}>{movie.title},</h5>
-          <p>{movie.year}</p>
+          <h5 style={{ fontFamily: 'GolosTextWebDemiBold' }}>{movie.title}, </h5>
+          <p>{movie.year},</p>
+          <p>{movie.type}</p>
         </div>
         <p>{movie.description}</p>
       </div>

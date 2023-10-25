@@ -3,7 +3,7 @@ import MovieCard from './components/MovieCard/MovieCard';
 import { MovieType } from '@/models/movie.type';
 import CustomInput from '@/components/CustomInput/CustomInput';
 import { FilteredEnum, GenreType } from '@/models/common.type';
-// import CustomSelector from '@/components/CustomSelector/CustomSelector';
+import CustomSelector from '@/components/CustomSelector/CustomSelector';
 
 interface ListMoviesProps {
 	movies: MovieType[],
@@ -17,38 +17,51 @@ const ListMovies: FC<ListMoviesProps> = ({movies}) => {
 
   useEffect(() => {
     const delay = setTimeout(() => {
+      if (filterYear !== '' && filterGenre !== GenreType.NONE) {
+        const filteredMovies = movies.filter(movie => (movie.year === Number(filterYear) && (movie.type === filterGenre)));
+        setDelayedMovies(filteredMovies);
+        return;
+      }
+
       if (filterYear !== '') {
         const filteredMovies = movies.filter(movie => movie.year === Number(filterYear));
         setDelayedMovies(filteredMovies);
-      } else {
-        setDelayedMovies(movies);
+        return;
       }
-    }, 500);
+
+      if(filterGenre !== GenreType.NONE) {
+        const filteredMovies = movies.filter(movie => movie.type === filterGenre);
+        setDelayedMovies(filteredMovies);
+        return;
+      }
+
+      setDelayedMovies(movies);
+    }, 800);
 
     return () => clearTimeout(delay);
-  }, [filterYear, movies]);
+  }, [filterYear, movies, filterGenre]);
 
   const items = useMemo(() => {
-    if (filterYear !== '') {
+    if (filterYear !== '' || filterGenre !== GenreType.NONE) {
       return delayedMovies;
     }
     return movies;
-  }, [delayedMovies, filterYear, movies]);
+  }, [delayedMovies, filterYear, movies, filterGenre]);
 
   return (
     <div>
       <div className="mt-2">
         <CustomInput
-            title={'Filter by year'}
-            type={FilteredEnum.TEXT}
-            filteredData={filterYear}
-            setFilteredData={setFilterYear}
+          title={'Filter by year'}
+          type={FilteredEnum.TEXT}
+          filteredData={filterYear}
+          setFilteredData={setFilterYear}
         />
 
-        {/* <CustomSelector
-            filterGenre={genresArray}
-            setFilteredData={setFilterGenre}
-        /> */}
+        <CustomSelector
+          filterGenre={genresArray}
+          setFilteredData={setFilterGenre}
+        />
 
       </div>
       <div className="my-5 h-full">
