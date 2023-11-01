@@ -1,12 +1,14 @@
 import React, { FC, useState } from 'react';
 import Image from 'next/image';
+import ImageModal from '../ImageModal';
 
 type Props = {
   images: string[]
 }
 
 const Carousel: FC<Props> = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [openedImage, setOpenedImage] = useState<string | null>('');
 
   const prevSlide = () => {
     const index = (currentIndex - 1 + images.length) % images.length;
@@ -20,19 +22,30 @@ const Carousel: FC<Props> = ({ images }) => {
 
   return (
     <div className="w-96 sm:w-[38rem] md:w-[44rem] lg:w-[48rem] h-full">
-      <div className="overflow-hidden relative h-64 sm:h-[24rem] md:h-[28rem] lg:h-[36rem]">
+      <div className="overflow-hidden relative h-64 sm:h-[24rem] md:h-[28rem] lg:h-[36rem] cursor-pointer">
         {images?.map((image, idx) => {
           return (
-            <Image
-              key={`${image}-${idx}`}
-              src={image}
-              layout="fill"
-              alt={`still-${idx}`}
-              priority={true}
-              className={`${
-                idx === currentIndex ? 'block' : 'hidden'
-              } w-full h-full transition duration-500 ease-in-out`}
-            />
+            <>
+              <div className="overflow-hidden relative h-64 sm:h-[24rem] md:h-[28rem]
+                lg:h-[36rem] cursor-pointer bg-gray-800 z-10 bg-transparent"
+                onClick={()=> setOpenedImage(image)}>
+                  <Image
+                    key={`${image}-${idx}`}
+                    src={image}
+                    layout="fill"
+                    alt={`still-${idx}`}
+                    priority={true}
+                    className={`${
+                      idx === currentIndex ? 'block' : 'hidden'
+                    } w-full h-full transition duration-500 ease-in-out`}
+                  />
+                  {openedImage !== '' && openedImage === image ?
+                  <ImageModal
+                    imageUrl={image}
+                    onClose={setOpenedImage}
+                  /> : null}
+              </div>
+            </>
           )
         })}
         <div className="absolute top-0 left-0 w-full flex justify-between h-full">
